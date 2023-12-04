@@ -21,7 +21,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	return (new);
 }
 /**
-*is_palindrome - identify if a syngle linked list is palindrome
+*is_palindrome - identify if a singly linked list is palindrome
 *@head: head of listint_t
 *Return: 1 if it is palindrome else 0
 */

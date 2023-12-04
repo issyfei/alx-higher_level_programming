@@ -3,6 +3,7 @@
 #include "lists.h"
 
 /**
+ * is_palindrome - checks if a linked list is a palindrome
  * print_listint - prints all elements of a listint_t list
  * @h: pointer to head of list
  * Return: number of nodes

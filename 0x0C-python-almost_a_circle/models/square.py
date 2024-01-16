@@ -40,9 +40,9 @@ class Square(Rectangle):
                     self.x = arg
                 elif count == 3:
                     self.y = arg
-                else:
+                else: continue
 
-                elif len(kwargs) > 0:
+        elif len(kwargs) > 0:
             for key, value in kwargs.items():
                 if key == "id":
                     self.id = value
